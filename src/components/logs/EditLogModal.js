@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
-const AddLogModal = () => {
+const EditLogModal = () => {
   const [message, setMessage] = useState('');
   const [attention, setAttention] = useState(false);
   const [tech, setTech] = useState('');
@@ -92,8 +92,8 @@ const AddLogModal = () => {
   );
 };
 
-AddLogModal.propTypes = {
-  addLog: PropTypes.func.isRequired
+EditLogModal.propTypes = {
+  editLog: PropTypes.func.isRequired
 };
 
 const modalStyle = {
@@ -101,4 +101,4 @@ const modalStyle = {
   height: '75%'
 };
 
-export default AddLogModal
+export default EditLogModal
