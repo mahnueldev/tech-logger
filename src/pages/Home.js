@@ -5,10 +5,12 @@ import AddLogModal from '../components/logs/AddLogModal'
 import EditLogModal from '../components/logs/EditLogModal'
 import Logs from '../components/logs/Logs'
 import AddTechModal from '../components/techs/AddTechModal'
+import TechListModal from '../components/techs/TechListModal'
 
 const Home = () => {
   return (
     <Fragment>
+      <TechListModal/>
       <AddTechModal/>
       <EditLogModal/>
       <AddLogModal/>
