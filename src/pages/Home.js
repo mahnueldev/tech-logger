@@ -10,11 +10,11 @@ import TechListModal from '../components/techs/TechListModal'
 const Home = () => {
   return (
     <Fragment>
+      <AddBtn/>
+      <AddLogModal/>
       <TechListModal/>
       <AddTechModal/>
       <EditLogModal/>
-      <AddLogModal/>
-      <AddBtn/>
     <SearchBar/>
     <Logs/>
     </Fragment>

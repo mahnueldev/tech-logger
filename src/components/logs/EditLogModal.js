@@ -54,8 +54,11 @@ const EditLogModal = () => {
               <option value='John Doe' >
               John Doe
               </option>
-              <option value='Jane Lee' >
-              Jane Lee
+              <option value='Sam Smith' >
+              Sam Smith
+              </option>
+              <option value='Sara Wilson' >
+              Sam Smith
               </option>
               {/* <TechSelectOptions /> */}
             </select>
