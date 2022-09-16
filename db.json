@@ -1,18 +1,18 @@
 {
   "logs": [
     {
-      "message": "fixed the resistor",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2022-09-15T14:37:20.898Z",
-      "id": 1
-    },
-    {
       "message": "Updated backend server 233",
       "attention": false,
       "tech": "John Doe",
       "date": "2022-09-15T14:39:55.064Z",
       "id": 2
+    },
+    {
+      "message": "Added front end functionality to home page",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2022-09-16T09:08:31.064Z",
+      "id": 3
     }
   ],
   "techs": [
