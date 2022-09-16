@@ -6,7 +6,7 @@ import store from './store'
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
-function App() {
+const App = () => {
   useEffect(() => {
     // Init Materialize JS
     M.AutoInit();
