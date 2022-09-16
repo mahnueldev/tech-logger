@@ -13,6 +13,13 @@
       "tech": "Sam Smith",
       "date": "2022-09-16T09:08:31.064Z",
       "id": 3
+    },
+    {
+      "message": "Drive partition error in section 6",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2022-09-16T09:39:25.595Z",
+      "id": 4
     }
   ],
   "techs": [
